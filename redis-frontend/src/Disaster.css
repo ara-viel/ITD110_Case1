@@ -1,0 +1,84 @@
+.disaster-container {
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-wrapper {
+  display: flex;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 150px; /* Ensure this isn't pushing it too far */
+}
+  .disaster-header {
+    text-align: center;
+    background: #d9534f;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .section h2 {
+    color: #d9534f;
+    margin-bottom: 10px;
+  }
+  
+  .emergency-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  .checklist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .checklist li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checklist li::before {
+    content: "✅";
+    margin-right: 10px;
+  }
+  
+  .evacuation-map {
+    text-align: center;
+  }
+  
+  .evacuation-map img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
